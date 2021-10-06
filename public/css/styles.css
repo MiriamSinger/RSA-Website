@@ -1,0 +1,194 @@
+/* 
+    Created on : Jun 24, 2021, 11:19:11 AM
+    Author     : Miriam Singer
+*/
+
+
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+}
+h1{
+  font-family: Arial, Verdana, sans-serif;
+  color: #006699;
+}
+h2{
+   font-family: Impact, fantasy;
+   color: #035279;
+  
+}
+h3{
+    font-family:  Arial, Verdana, sans-serif;
+    color: #0c7eb7;
+}
+a:link{
+    color: black;  
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #035279;
+    background-color: #af8d6c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #FDF8E4;
+}
+
+
+
+.title {
+  color: #006699;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+img.carousel{
+    max-height:500px;
+    height:500px;
+    width:auto;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+
+.input-container {
+  position: relative;
+  margin: 1rem 0;
+}
+.input {
+  width: 400px;
+  outline: none;
+  border: 2px solid black;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: black;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.btn-lg{
+    margin-top: 15px;
+    border-radius:25px;
+    width: 100px;
+    padding:10px;
+    border: 2px solid black;
+    background: none;
+    color:black;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+ 
+  
+    
+}
+.btn-group{
+    margin-left: 5px;
+}
+        
+        
+table, th, td{
+    border-bottom : 1px solid #006699;
+    padding : 10px;
+    color: #035279;    
+}    
+tr:nth-child(even) {
+    background-color: #FDF8E4;
+}
+th {
+  background-color: #af8d6c;
+  color: #FDF8E4;    
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 20px;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #0c7eb7;
+  font-size: 26px;
+}
+
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: black;
+  font-size: 14px;
+  outline: none;
+  transition: border-color .2s;
+}
+.logo{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    opacity: 0.7;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 5px;   
+    max-width: 100%;
+    position: relative;
+}
+img.logo{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    opacity: 0.7;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 5px;   
+    max-width: 100%;
+    margin: 0;
+    top: 0;
+    float: right;
+}
+        
+    
+
+
+

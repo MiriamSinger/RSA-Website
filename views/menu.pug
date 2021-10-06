@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/styles.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    img(src='images/RSAlogo.jpg').logo 
+  body
+    main
+    div.flex_container
+      block header
+          ul.navbar-nav
+            li
+              a(href='/homepage').
+                Home
+            li
+              a(href='/joinmailinglist').
+                Join RSA
+            li
+              a(href='/institutions').
+                Our Institutions
+            li
+              a(href='/contactUs').
+                Contact Us
+            li
+              a(href='https://www.rayze.it/rsa/' target='_blank' rel='noopener noreferrer').
+                Donate
+                
+      h1.title #{title}
+      block content

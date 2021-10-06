@@ -1,0 +1,19 @@
+extends menu
+block content
+
+  .page_content
+    -var institutions = [];
+    -institutions = list;
+    table
+      tr
+        th Institution
+        th Type
+        th City
+        th State
+      each i in institutions
+        tr
+          td=i.institution
+          td=i.type
+          td=i.city
+          td=i.state
+

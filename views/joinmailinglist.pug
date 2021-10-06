@@ -1,0 +1,30 @@
+extends menu
+block content
+      div.screen-body-item 
+            form(method='POST', action='/form_action_join_mailing_list')
+                  h1 Please enter your information below to be added to the RSA mailing list
+                  div.input
+                        label(for='firstname') First Name:
+                        input(type='text', name='firstname')
+                  div.input
+                        label(for='lastname') Last Name:
+                        input(type='text', name='lastname')
+                  div.input
+                        label(for='address') Address:
+                        input(type='text', name='address')
+                  div.input
+                        label(for='city') City:
+                        input(type='text', name='city')
+                  div.input
+                        label(for='statecode') State:
+                        input(type='text', name='statecode')
+                  div.input
+                        label(for='zip') Zipcode:
+                        input(type='text', name='zip')
+                  div.input
+                        label(for='email') Email:
+                        input(type='email', name='email')
+                  div.input
+                        label(for='number') Number:
+                        input(type='tel', name='number')
+                  input.btn-lg(type='submit', value='Submit')
